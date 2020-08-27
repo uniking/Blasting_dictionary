@@ -1,0 +1,5 @@
+iconv -t utf-8 -f gb2312 -c my_database.sql > new.sql
+
+-f  原编码
+-t  目标编码
+-c 忽略无法转换的字符
